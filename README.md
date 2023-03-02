@@ -5,15 +5,15 @@ background info:
 
 to run:
 - grant MacOS terminal the ability to copy the NotesStore.sqlite file: "System Settings > Privacy and Security > Full Disk Access > Terminal"
-		( this can be turned back off after running the script )
+	- this can be turned back off after running the script
 - from the terminal clone this repo:
-		git clone https://github.com/montehurd/macos-notes-extraction.git
+	- git clone https://github.com/montehurd/macos-notes-extraction.git
 - from terminal change to the directory of the cloned repo:
-		cd ~/macos-notes-extraction
+	- cd ~/macos-notes-extraction
 - from terminal run this file:
-		./extract-notes.sh
+	- ./extract-notes.sh
 when run notes should appear as files in a new "notes" folder in the directory
 
 limitations:
 - plain text in notes is readable, but attachments such as images aren't decoded 
-		( the github link above looks like it might handle decoding attachments )
+	- the github link above looks like it might handle decoding attachments

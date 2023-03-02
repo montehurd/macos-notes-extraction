@@ -9,6 +9,6 @@ sqlite3 NoteStore.sqlite "SELECT writefile('./notes/note-' || Z_PK || '.txt.gz',
 # unzip each note - note blobs are stored in gz format
 cd "notes"
 gunzip *.gz
-# remove copy of NotesFile
+# remove copy of NoteStore
 cd -
 rm NoteStore*

@@ -4,7 +4,8 @@ background info:
 - https://stackoverflow.com/questions/34844156/exporting-all-blobs-from-sqlite-to-a-files
 
 to run:
-- grant MacOS terminal the ability to copy the NotesStore.sqlite file: "System Settings > Privacy and Security > Full Disk Access > Terminal"
+- grant MacOS terminal the ability to copy the NotesStore.sqlite file:
+	- "System Settings > Privacy and Security > Full Disk Access > Terminal"
 	- this can be turned back off after running the script
 - from the terminal clone this repo:
 	- git clone https://github.com/montehurd/macos-notes-extraction.git
@@ -12,7 +13,8 @@ to run:
 	- cd ~/macos-notes-extraction
 - from terminal run this file:
 	- ./extract-notes.sh
-when run notes should appear as files in a new "notes" folder in the directory
+
+extracted notes should appear as files in ~/macos-notes-extration/notes
 
 limitations:
 - plain text in notes is readable, but attachments such as images aren't decoded 

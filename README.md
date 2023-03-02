@@ -9,10 +9,8 @@ to run:
 	- this can be turned back off after running the script
 - from the terminal clone this repo:
 	- git clone https://github.com/montehurd/macos-notes-extraction.git
-- from terminal change to the directory of the cloned repo:
-	- cd ~/macos-notes-extraction
-- from terminal run this file:
-	- ./extract-notes.sh
+- from terminal run the script:
+	- cd ~/macos-notes-extraction && ./extract-notes.sh
 
 extracted notes should appear as files in ~/macos-notes-extration/notes
 

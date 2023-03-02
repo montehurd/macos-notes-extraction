@@ -12,7 +12,7 @@ to run:
 - from terminal run the script:
 	- cd ~/macos-notes-extraction && ./extract-notes.sh
 
-extracted notes should appear as files in ~/macos-notes-extration/notes
+extracted notes should appear as files in ~/macos-notes-extraction/notes
 
 limitations:
 - plain text in notes is readable, but attachments such as images aren't decoded 

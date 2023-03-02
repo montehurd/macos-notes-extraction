@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# copy the notes sqlite file into our folder
+# copy the NoteStore file into our folder
 cp "$HOME/Library/Group Containers/group.com.apple.notes/NoteStore.sqlite" "./"
 # make a folder to hold extracted notes
 mkdir -p "notes" 

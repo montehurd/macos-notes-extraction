@@ -1,7 +1,7 @@
 background info: 
-	- https://ciofecaforensics.com/2017/10/13/theres-gold-in-them-there-blobs/
-	- https://github.com/threeplanetssoftware/apple_cloud_notes_parser/tree/master/lib
-	- https://stackoverflow.com/questions/34844156/exporting-all-blobs-from-sqlite-to-a-files
+- https://ciofecaforensics.com/2017/10/13/theres-gold-in-them-there-blobs/
+- https://github.com/threeplanetssoftware/apple_cloud_notes_parser/tree/master/lib
+- https://stackoverflow.com/questions/34844156/exporting-all-blobs-from-sqlite-to-a-files
 
 to run:
 - grant MacOS terminal the ability to copy the NotesStore.sqlite file: "System Settings > Privacy and Security > Full Disk Access > Terminal"
